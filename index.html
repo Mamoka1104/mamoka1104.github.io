@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="top">
+        <!--<img class="fold_img" src="img/main-screen.png" alt="диаграмма">-->
+
+        <headr class="header container">
+            <div class="header_logo">
+                <a class="logo_icon" href="index.html"><svg width="40" height="40" viewBox="0 0 40 40">
+                        <path
+                            d="M36.5083 8.70613C32.9048 3.44887 26.8551 0 20 0C8.95431 0 0 8.9543 0 20C0 21.607 0.189533 23.1697 0.547447 24.667L10.7322 14.4822C11.7085 13.5059 13.2915 13.5059 14.2678 14.4822L22.5 22.7145L36.5083 8.70613Z" />
+                        <path
+                            d="M38.8854 13.4001L24.2678 28.0178C23.2915 28.9941 21.7085 28.9941 20.7322 28.0178L12.5 19.7855L2.53418 29.7514C5.9555 35.8662 12.495 40 20 40C31.0457 40 40 31.0457 40 20C40 17.6874 39.6075 15.4664 38.8854 13.4001Z" />
+                    </svg></a>
+                <a class="logo_icon_txt" href="index.html"><svg width="119" height="17" viewBox="0 0 119 17">
+                        <path
+                            d="M10.8084 13.0559H5.60229L4.69311 16H0.634277L6.41406 0.240845H9.98584L15.8089 16H11.7284L10.8084 13.0559ZM6.51147 10.1228H9.89925L8.19995 4.65686L6.51147 10.1228Z" />
+                        <path
+                            d="M30.1285 16H26.3511L20.7661 6.19381V16H16.967V0.240845H20.7661L26.3402 10.047V0.240845H30.1285V16Z" />
+                        <path
+                            d="M41.6772 13.0559H36.4711L35.5619 16H31.5031L37.2829 0.240845H40.8547L46.6777 16H42.5972L41.6772 13.0559ZM37.3803 10.1228H40.7681L39.0688 4.65686L37.3803 10.1228Z" />
+                        <path d="M51.6349 13.0776H58.2481V16H47.8359V0.240845H51.6349V13.0776Z" />
+                        <path
+                            d="M62.5884 7.08134L65.4891 0.240845H69.5912L64.515 10.3392V16H60.6618V10.3392L55.5964 0.240845H59.6768L62.5884 7.08134Z" />
+                        <path d="M83.3047 3.17403H78.5748V16H74.7757V3.17403H70.1324V0.240845H83.3047V3.17403Z" />
+                        <path d="M88.9654 16H85.1772V0.240845H88.9654V16Z" />
+                        <path
+                            d="M104.357 10.6639C104.306 11.7607 104.01 12.7312 103.469 13.5755C102.928 14.4125 102.167 15.0619 101.185 15.5237C100.211 15.9855 99.0963 16.2164 97.8407 16.2164C95.7698 16.2164 94.1391 15.5418 92.9485 14.1924C91.7579 12.8431 91.1626 10.9381 91.1626 8.47758V7.69828C91.1626 6.15412 91.4296 4.80478 91.9635 3.65027C92.5047 2.48854 93.2804 1.59379 94.2906 0.966024C95.3008 0.331041 96.4697 0.0135498 97.7974 0.0135498C99.7096 0.0135498 101.247 0.51865 102.408 1.52885C103.57 2.53183 104.23 3.91725 104.389 5.6851H100.601C100.572 4.72541 100.33 4.03631 99.8756 3.6178C99.421 3.19929 98.7283 2.99003 97.7974 2.99003C96.8522 2.99003 96.1595 3.3436 95.7193 4.05074C95.2792 4.75788 95.0483 5.88714 95.0266 7.43852V8.55334C95.0266 10.2346 95.2359 11.436 95.6544 12.1576C96.0801 12.8792 96.8089 13.2399 97.8407 13.2399C98.7138 13.2399 99.3813 13.0343 99.8431 12.623C100.305 12.2117 100.55 11.5587 100.579 10.6639H104.357Z" />
+                        <path
+                            d="M114.282 11.8112C114.282 11.2556 114.083 10.8227 113.686 10.5124C113.297 10.2021 112.608 9.88104 111.619 9.54911C110.631 9.21719 109.822 8.89609 109.195 8.58582C107.153 7.58283 106.132 6.20463 106.132 4.45121C106.132 3.57811 106.384 2.80964 106.889 2.14579C107.402 1.47473 108.123 0.9552 109.054 0.587199C109.985 0.211982 111.031 0.0243734 112.193 0.0243734C113.326 0.0243734 114.339 0.226413 115.234 0.630493C116.136 1.03457 116.836 1.61183 117.334 2.36226C117.832 3.10548 118.081 3.95694 118.081 4.91663H114.293C114.293 4.27443 114.094 3.77654 113.697 3.42297C113.308 3.0694 112.777 2.89262 112.106 2.89262C111.428 2.89262 110.89 3.04415 110.493 3.34721C110.104 3.64305 109.909 4.02188 109.909 4.48368C109.909 4.88776 110.125 5.25576 110.558 5.58769C110.991 5.91239 111.753 6.25153 112.842 6.6051C113.932 6.95146 114.827 7.32667 115.526 7.73075C117.229 8.71209 118.081 10.065 118.081 11.7896C118.081 13.1678 117.561 14.2501 116.522 15.0367C115.483 15.8232 114.058 16.2164 112.247 16.2164C110.97 16.2164 109.812 15.9891 108.773 15.5345C107.741 15.0727 106.961 14.445 106.435 13.6512C105.915 12.8503 105.655 11.9303 105.655 10.8912H109.465C109.465 11.7355 109.682 12.3596 110.115 12.7637C110.555 13.1606 111.266 13.359 112.247 13.359C112.875 13.359 113.369 13.2255 113.73 12.9585C114.098 12.6843 114.282 12.3019 114.282 11.8112Z" />
+                    </svg></a>
+            </div>
+            <nav class="header_menu">
+                <ul class="header_menu_list">
+                    <li class="menu_list_link"><a href="#">Products</a></li>
+                    <li class="menu_list_link"><a href="#">Pricing</a></li>
+                    <li class="menu_list_link"><a href="#">FAQ</a></li>
+                    <li class="menu_list_link"><a href="#">Blog</a></li>
+                    <li class="menu_list_link"><a href="#">Blog</a></li>
+                </ul>
+            </nav>
+            <form action="#">
+                <div class="header_form">
+                    <input class="header_input" type="text" placeholder="Sign in">
+                    <button class="input_btn" type="submit">Sign Up</button>
+                </div>
+            </form>
+            <a href="#" class="header_bar_icon"><svg width="32" height="23" viewBox="0 0 32 23">
+                    <path d="M0 23V20.31H32V23H0ZM0 12.76V10.07H32V12.76H0ZM0 2.69V0H32V2.69H0Z" />
+                </svg></a>
+        </headr>
+
+        <section class="fold">
+            <div class=img_media><img class="fold_img_media" src="img/main-screen (1).png" alt="диаграмма"></div>
+            <div class="fold_info_wrap">
+                <h1 class="fold_info_title">Monitor your business on real-time dashboard</h1>
+                <p class="fold_info_txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi
+                    aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet
+                    sed nullam.</p>
+                <button class="fold_btn">Try for free</button>
+            </div>
+            <div class=img><img class="fold_img" src="img/main-screen.png" alt="диаграмма"></div>
+
+        </section>
+
+
+        <main>
+            <section class="features container">
+                <h1 class="features_title">
+                    Main Features
+                </h1>
+                <h2 class="features_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Elementum nisi aliquet volutpat pellentesque volutpat est. Sapien in etiam vitae nibh nunc
+                    mattis imperdiet sed nullam. Vitae et, tortor pulvinar risus pulvinar sit amet. Id vel in nam
+                    malesuada.</h2>
+                <div class="features_icons">
+                    <div class="features_icons_item">
+                        <img src="img/time.png" alt="иконка часы">
+                        <h4>Monitoring 24/7</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipis
+                            cing elit. Elementum nisi aliquet volutpat.</p>
+                    </div>
+                    <div class="features_icons_item">
+                        <img src="img/comp.png" alt="иконка компьютер">
+                        <h4>Widget System</h4>
+                        <p>Sapien in etiam vitae nibh nunc mattis imperdiet
+                            sed nullam. Vitae et, tortor pulvinar risus pulvinar.</p>
+                    </div>
+                    <div class="features_icons_item">
+                        <img src="img/rocket.png" alt="иконка ракета">
+                        <h4>Best Performance</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipis
+                            cing elit. Elementum nisi aliquet volutpat.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="screenshots container">
+                <div class="scren_item">
+                    <div class="srin_item_wrap">
+                        <h4>Automated Reports
+                            & Widget Alerts</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat
+                            pellentesque
+                            volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor
+                            pulvinar
+                            risus pulvinar sit amet.</p>
+                    </div>
+                    <img src="img/screen-01.png" alt="скриншот 1">
+                </div>
+                <div class="scren_item">
+                    <img src="img/screen-02.png" alt="скриншот 2">
+                    <div class="srin_item_wrap">
+                        <h4>Fully customizable to address your needs </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat
+                            pellentesque
+                            volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor
+                            pulvinar
+                            risus pulvinar sit amet.</p>
+                    </div>
+                </div>
+                <div class="scren_item">
+                    <div class="srin_item_wrap">
+                        <h4>Pre-built Dashboard Templates </h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum nisi aliquet volutpat
+                            pellentesque
+                            volutpat est. Sapien in etiam vitae nibh nunc mattis imperdiet sed nullam. Vitae et, tortor
+                            pulvinar
+                            risus pulvinar sit amet.</p>
+                    </div>
+                    <img src="img/screen-03.png" alt="скриншот 3">
+                </div>
+            </section>
+            <section class="pricing">
+                <div class="pricing_info container">
+                    <h2>Pricing Plans</h2>
+                    <p class="pricing_info_subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Elementum
+                        nisi
+                        aliquet
+                        volutpat pellentesque volutpat est. </p>
+                </div>
+                <div class="pricing_info_items">
+                    <div class="pricing_info_item">
+                        <h4 class="item_title">Starter</h4>
+                        <p class="cond">up to 3 users</p>
+                        <p class="prise">$ <span class="big_prise">29</span></p>
+                        <p class="time">per month</p>
+                        <button>Order</button>
+                    </div>
+                    <div class="pricing_info_item">
+                        <h4 class="item_title">Standard</h4>
+                        <p class="cond">up to 20 users</p>
+                        <p class="prise">$ <span class="big_prise">99</span></p>
+                        <p class="time">per month</p>
+                        <button>Order</button>
+                    </div>
+                    <div class="pricing_info_item">
+                        <h4 class="item_title">Premium</h4>
+                        <p class="cond">up to 200 users</p>
+                        <p class="prise">$ <span class="big_prise">299</span></p>
+                        <p class="time">per month</p>
+                        <button>Order</button>
+                    </div>
+                </div>
+
+            </section>
+        </main>
+        <section class="subscribe container">
+            <div class="subsscribe_partners">
+                <h4 class="partners_title">See why the world’s best companies use Analytics</h4>
+                <p class="partners_txt">Trusted by</p>
+                <div class="partners_icon">
+                    <a class="partners_icon_link" href="#"> <img src="img/accenture-4.png" alt="accenture"> </a>
+                    <a class="partners_icon_link" href="#"> <img src="img/react.png" alt="react"></a>
+                    <a class="partners_icon_link" href="#"> <img src="img/airbnb.png" alt="airbnb"></a>
+                    <a class="partners_icon_link" href="#"> <img src="img/sky-4.png" alt="sky"></a>
+                </div>
+            </div>
+            <div class="form_wrap">
+                <form action="#">
+                    <h3 class="form_title">Sign Up</h3>
+                    <input type="submit" name="submit" value="Start your free trial"></input>
+                    <input type="email" required placeholder="Your primary email">
+                    <input class="pas" type="password" id="pass" required placeholder="Password">
+                    <input class="cor_pas" type="password" id="repass" required placeholder="Re-type Password">
+
+                    <form>
+                        <div class="form-group">
+                            <label>Help us get better</label>
+                            <div class="star-rating">
+                                <div class="star-rating__wrap">
+                                    <input class="star-rating__input" id="star-5" type="radio" name="rating" value="5">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-5"
+                                        title="Отлично"></label>
+                                    <input class="star-rating__input" id="star-4" type="radio" name="rating" value="4">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-4"
+                                        title="Хорошо"></label>
+                                    <input class="star-rating__input" id="star-3" type="radio" name="rating" value="3">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-3"
+                                        title="Удовлетворительно"></label>
+                                    <input class="star-rating__input" id="star-2" type="radio" name="rating" value="2">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-2"
+                                        title="Плохо"></label>
+                                    <input class="star-rating__input" id="star-1" type="radio" name="rating" value="1">
+                                    <label class="star-rating__ico fa fa-star-o fa-lg" for="star-1"
+                                        title="Ужасно"></label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="login">
+                            <p class="login_txt">Already have an account?</p>
+                            <a href="#" class="login_link">Login</a>
+                        </div>
+                    </form>
+                </form>
+            </div>
+        </section>
+        <footer>
+            <div class="footer">
+                <div class="footer_wrap container">
+                    <a class="footer_logo" href="index.html" class="footer_logo"><img src="img/logo (1).png"
+                            alt="logo"></a>
+                    <nav class="footer_menu">
+                        <ul class="footer_menu_list">
+                            <li class="footer_list_link"><a href="#">Products</a></li>
+                            <li class="footer_list_link"><a href="#">Pricing</a></li>
+                            <li class="footer_list_link"><a href="#">FAQ</a></li>
+                            <li class="footer_list_link"><a href="#">Blog</a></li>
+                            <li class="footer_list_link"><a href="#">Blog</a></li>
+                        </ul>
+                    </nav>
+                    <ul class="footer_icon">
+                        <li>
+                            <a class="footer_icon_item" href="#"><svg width="11" height="16" viewBox="0 0 11 16">
+                                    <path
+                                        d="M9.08836 8.28L9.50686 5.61602H6.89022V3.88729C6.89022 3.15847 7.25574 2.44806 8.42765 2.44806H9.61722V0.179975C9.61722 0.179975 8.53772 0 7.50561 0C5.35073 0 3.9422 1.27593 3.9422 3.5857V5.61602H1.54688V8.28H3.9422V14.72H6.89022V8.28H9.08836Z" />
+                                </svg></a>
+                        </li>
+                        <li>
+                            <a class="footer_icon_item" href="#"><svg width="16" height="17" viewBox="0 0 16 17">
+                                    <path
+                                        d="M8.13677 4.68162C6.02163 4.68162 4.31555 6.38494 4.31555 8.49666C4.31555 10.6084 6.02163 12.3117 8.13677 12.3117C10.2519 12.3117 11.958 10.6084 11.958 8.49666C11.958 6.38494 10.2519 4.68162 8.13677 4.68162ZM8.13677 10.9769C6.76991 10.9769 5.65248 9.86463 5.65248 8.49666C5.65248 7.12869 6.76658 6.01639 8.13677 6.01639C9.50695 6.01639 10.6211 7.12869 10.6211 8.49666C10.6211 9.86463 9.50363 10.9769 8.13677 10.9769ZM13.0056 4.52557C13.0056 5.02029 12.6065 5.41541 12.1143 5.41541C11.6188 5.41541 11.223 5.01697 11.223 4.52557C11.223 4.03416 11.6221 3.63572 12.1143 3.63572C12.6065 3.63572 13.0056 4.03416 13.0056 4.52557ZM15.5364 5.42869C15.4799 4.2367 15.2072 3.18084 14.3325 2.31092C13.4612 1.441 12.4036 1.16873 11.2097 1.10897C9.9792 1.03924 6.29101 1.03924 5.0605 1.10897C3.8699 1.16541 2.81233 1.43768 1.93768 2.3076C1.06302 3.17752 0.793639 4.23338 0.733776 5.42537C0.663937 6.65389 0.663937 10.3361 0.733776 11.5646C0.790313 12.7566 1.06302 13.8125 1.93768 14.6824C2.81233 15.5523 3.86658 15.8246 5.0605 15.8844C6.29101 15.9541 9.9792 15.9541 11.2097 15.8844C12.4036 15.8279 13.4612 15.5556 14.3325 14.6824C15.2039 13.8125 15.4766 12.7566 15.5364 11.5646C15.6063 10.3361 15.6063 6.65721 15.5364 5.42869ZM13.9468 12.8828C13.6874 13.5336 13.1852 14.0349 12.53 14.2972C11.5489 14.6857 9.22094 14.5961 8.13677 14.5961C7.05259 14.5961 4.72128 14.6824 3.74353 14.2972C3.09169 14.0383 2.58951 13.5369 2.32678 12.8828C1.93768 11.9033 2.02747 9.57908 2.02747 8.49666C2.02747 7.41424 1.941 5.0867 2.32678 4.11053C2.58619 3.45975 3.08837 2.95838 3.74353 2.69608C4.72461 2.3076 7.05259 2.39725 8.13677 2.39725C9.22094 2.39725 11.5523 2.31092 12.53 2.69608C13.1818 2.95506 13.684 3.45643 13.9468 4.11053C14.3359 5.09002 14.2461 7.41424 14.2461 8.49666C14.2461 9.57908 14.3359 11.9066 13.9468 12.8828Z" />
+                                </svg></a>
+                        </li>
+                        <li>
+                            <a class="footer_icon_item" href="#"> <svg width="17" height="16" viewBox="0 0 17 16">
+                                    <path
+                                        d="M14.4181 4.74107C14.4281 4.88319 14.4281 5.02535 14.4281 5.16747C14.4281 9.50247 11.1509 14.4974 5.16096 14.4974C3.31558 14.4974 1.60132 13.9593 0.159302 13.0253C0.421495 13.0558 0.673569 13.0659 0.94585 13.0659C2.46851 13.0659 3.8702 12.5482 4.98953 11.6649C3.5576 11.6345 2.3576 10.6903 1.94415 9.39081C2.14585 9.42125 2.34751 9.44156 2.5593 9.44156C2.85172 9.44156 3.14418 9.40094 3.41643 9.32991C1.92401 9.02531 0.80465 7.70553 0.80465 6.11163V6.07103C1.23825 6.31469 1.74249 6.46697 2.2769 6.48725C1.39959 5.89841 0.824826 4.89335 0.824826 3.75628C0.824826 3.14716 0.98614 2.58878 1.26851 2.10147C2.87187 4.09131 5.28195 5.39078 7.98443 5.53294C7.93403 5.28928 7.90376 5.0355 7.90376 4.78169C7.90376 2.97457 9.35586 1.5025 11.1609 1.5025C12.0987 1.5025 12.9457 1.89844 13.5407 2.53803C14.2768 2.39591 14.9827 2.12178 15.6079 1.74616C15.3659 2.5076 14.8516 3.14719 14.176 3.55325C14.8315 3.48222 15.4668 3.29944 16.0516 3.04566C15.608 3.69538 15.0533 4.27403 14.4181 4.74107Z" />
+                                </svg></a>
+                        </li>
+                    </ul>
+                </div>
+        </footer>
+    </div>
+    </div>
+    </footer>
+
+
+    </script>
+
+
+
+</body>
+
+</html>
